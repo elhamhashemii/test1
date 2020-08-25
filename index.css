@@ -1,0 +1,284 @@
+/*------------------------------------------------*/
+/*BASIC SETUP*/
+/*-----------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    color: rgb(70, 68, 68);
+    font-family: "Lato";
+    max-width: 100%;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+/*------------------------------------------------*/
+/* HEADINGS */
+/*------------------------------------------------*/
+h1 {
+    color: rgb(185, 184, 184);
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    font-weight: 150;
+    font-size: 250%;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    margin: 7% auto;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+.par {
+    font-family: "Gochi hand";
+    text-align: center;
+}
+.par-footer {
+    text-align: center;
+    font-family: "Recursive";
+    font-size: 65%;
+    font-weight: 1000;
+    margin: 3%;
+
+}
+/*--------------------------------------------------*/
+/* HEADER */
+/*-------------------------------------------------*/
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76) , rgba(0, 0, 0, 0.74)) , url(img/store2.jfif);
+    background-position: center;
+    height: 100vh;
+}
+.header-text-box {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+/* NAVIGATION BAR */
+.main-nav {
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+    list-style: none;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a {
+    padding: 8px 0;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 70%;
+    border-bottom: 2px solid transparent ;
+    transition: border-bottom 0.2s ;
+}
+.main-nav li a:active,
+.main-nav li a:hover {
+    border-bottom: 2px solid rgb(8, 18, 41);
+}
+/*--------------------------------------------------*/
+/* BUTTONS */
+/*--------------------------------------------------*/
+.button {
+    display: inline-block;
+    font-size: 75%;
+    background-color: rgb(2, 2, 27);
+    border-radius: 200px;
+    border: 1px solid rgb(8, 18, 41);
+    padding: 10px 25px;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.button:hover,
+.button:active {
+    background-color: rgb(36, 35, 35);
+    border: 1px solid rgb(49, 49, 49);
+}
+.button-order {
+    display: inline-block;
+    font-size: 75%;
+    font-family: "Gochi Hand";
+    background-color: rgb(255, 251, 0);
+    border-radius: 200px;
+    border: 1px solid rgb(250, 243, 49);
+    padding: 10px 25px;
+    margin-top: 1%;
+    color: rgb(10, 5, 5);
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.button-order:hover,
+.button-order:active {
+    background-color: rgb(153, 153, 132);
+    border: 1px solid rgb(134, 134, 128);
+}
+.contact-btn {
+    margin-top: 5%;
+    display: inline-block;
+    font-size: 50%;
+    font-family: "Recursive";
+    background-color: rgb(0, 11, 31);
+    border-radius: 50%;
+    padding: 2%;
+    color: lightgray;
+    text-decoration: none;
+    margin-bottom: 1%;
+}
+/*-----------------------------------------------*/
+/* OUR STORES SECTION */
+/*-----------------------------------------------*/
+.our-stores {
+    align-items: center;
+}
+.stores {
+    text-align: center;
+    margin-top: 8%;
+    padding-left: 8%;
+    margin-bottom: 8%;
+    display: inline-block;
+}
+.stores img {
+    border-radius: 20%;
+}
+/*--------------------------------------------*/
+/* PURCHASE */
+/*--------------------------------------------*/
+.bags {
+    text-align: center;
+    display: inline-block;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-bottom: 8%;
+}
+.bags img {
+    margin-top: 5%;
+    height: 100px;
+    width: 150px;
+    border-radius: 20%;
+}
+#stores {
+    text-align: center;
+}
+/*---------------------------------------*/
+.footer-img {
+    border-radius: 10%;
+}
+.footer-par {
+    display: inline-block;
+    font-family: Gochi Hand;
+    margin-bottom: 5%;
+}
+.footer {
+    text-align: center;
+}
+.form {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.form input {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+}
+.form button {
+    padding: 1% 2%;
+    background-color: gray;
+    border-radius: 10%;
+    border: darkgray;
+    font-weight: 500;
+    font-family: Recursive;
+}
+.form button:hover ,
+.form button:active {
+    background-color: darkgray;
+    transition: 0.2s;
+}
+/*------------------------------------------------------*/
+/* ORDER P*/
+/*------------------------------------------------------*/
+.order-done {
+    margin: 5% auto;
+
+}
+.order-par {
+    text-align: center;
+    font-family: Gochi Hand;
+    color: darkblue;
+}
+/* STORES P*/
+.stores-html {
+    text-align: center;
+    margin: 10% auto;
+}
+.stores-html p { 
+    font-weight: 500;
+    font-family: Gochi Hand;
+    color: darkblue;
+}
+.stores-html p img {
+    border-radius: 10%;
+}
+
+/*------------------------------------------------*/
+/* animate */
+/*------------------------------------------------*/
+.section-pics {
+    display: inline-block;
+}
+.img-animate {
+    display: inline-block;
+    list-style: none;
+
+}
+.img-animate li {
+    list-style: none;
+}
+/*---------------------------------------------------------*/
+/*IMAGE ANIMATION*/
+/*---------------------------------------------------------*/
+.meals-section {
+    padding: 0;
+}
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+.meals-photo {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meals-photo img {
+    opacity: 0.7;
+    width: 100%;
+    transform: scale(1.15);
+    transition: transform 1s, opacity 1s;
+}
+
+.meals-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+
+
+}
